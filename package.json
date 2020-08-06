@@ -1,0 +1,31 @@
+{
+  "name": "@exodus/xpub-converter",
+  "version": "1.0.0",
+  "description": "xpub converter",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "\\.js$": "babel-jest"
+    }
+  },
+  "author": "Exodus",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "dependencies": {
+    "bs58check": "^2.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-jest": "^26.2.2",
+    "jest": "^26.2.2"
+  }
+}
