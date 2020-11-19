@@ -14,8 +14,11 @@
       "\\.js$": "babel-jest"
     }
   },
-  "author": "Exodus",
-  "license": "ISC",
+  "contributors": [
+    "Jameson Lopp",
+    "Exodus Movement, Inc."
+  ],
+  "license": "MIT",
   "publishConfig": {
     "access": "restricted"
   },
