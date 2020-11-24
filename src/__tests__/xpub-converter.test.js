@@ -1,4 +1,4 @@
-import xpubConverter from '..'
+const xpubConverter = require('..')
 
 const xpub =
   'xpub6D4KjGHFvbCy6Tb46PAnx2ZqzTjAU3mcNWxDHaMKTguY2aANe9jb3KLvF6Yo1bFN241mrezpTDCv5VECoUeFHr3SUoKeLb6VjoKRSQHjS6F'
