@@ -9,11 +9,6 @@
   "scripts": {
     "test": "jest"
   },
-  "jest": {
-    "transform": {
-      "\\.js$": "babel-jest"
-    }
-  },
   "contributors": [
     "Jameson Lopp",
     "Exodus Movement, Inc."
@@ -26,9 +21,6 @@
     "bs58check": "^2.1.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.11.1",
-    "@babel/preset-env": "^7.11.0",
-    "babel-jest": "^26.2.2",
     "jest": "^26.2.2"
   }
 }

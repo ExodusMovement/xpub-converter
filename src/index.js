@@ -1,4 +1,4 @@
-import bs58check from 'bs58check'
+const bs58check = require('bs58check')
 
 /*
   This script uses version bytes as described in SLIP-132
@@ -24,7 +24,7 @@ const prefixes = new Map([
  * @param xpub: an extended public key in base58 format. Example: xpub6CpihtY9HVc1jNJWCiXnRbpXm5BgVNKqZMsM4XqpDcQigJr6AHNwaForLZ3kkisDcRoaXSUms6DJNhxFtQGeZfWAQWCZQe1esNetx5Wqe4M
  * @param targetFormat: a string representing the desired prefix; must exist in the "prefixes" mapping defined above. Example: Zpub
 */
-export default function changeVersionBytes(xpub, targetFormat) {
+module.exports = function changeVersionBytes(xpub, targetFormat) {
   if (!prefixes.has(targetFormat)) {
     return 'Invalid target version'
   }
