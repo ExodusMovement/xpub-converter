@@ -1,10 +1,11 @@
 {
-  "name": "@exodus/xpub-converter",
+  "name": "xpub-converter",
   "version": "1.0.0",
   "description": "xpub converter",
   "main": "src/index.js",
   "files": [
-    "src"
+    "src",
+    "!src/__tests__"
   ],
   "scripts": {
     "test": "jest"
@@ -14,9 +15,6 @@
     "Exodus Movement, Inc."
   ],
   "license": "MIT",
-  "publishConfig": {
-    "access": "restricted"
-  },
   "dependencies": {
     "bs58check": "^2.1.2"
   },
