@@ -5,7 +5,7 @@ This is based off of work done by Jameson Lopp here: https://github.com/jlopp/xp
 ## Usage
 
 ```js
-import xpubConverter from '#/xpub-converter'
+const xpubConverter = require('xpub-converter')
 
 const xpub =
   'xpub6D4KjGHFvbCy6Tb46PAnx2ZqzTjAU3mcNWxDHaMKTguY2aANe9jb3KLvF6Yo1bFN241mrezpTDCv5VECoUeFHr3SUoKeLb6VjoKRSQHjS6F'
