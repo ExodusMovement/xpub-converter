@@ -14,6 +14,14 @@
     "Jameson Lopp",
     "Exodus Movement, Inc."
   ],
+  "homepage": "https://github.com/ExodusMovement/xpub-converter#readme",
+  "bugs": {
+    "url": "https://github.com/ExodusMovement/xpub-converter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ExodusMovement/xpub-converter.git"
+  },
   "license": "MIT",
   "dependencies": {
     "bs58check": "^2.1.2"
