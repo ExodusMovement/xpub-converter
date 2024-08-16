@@ -1,4 +1,4 @@
-const bs58check = require('bs58check')
+const bs58check = require('bs58check').default
 
 /*
   This script uses version bytes as described in SLIP-132
