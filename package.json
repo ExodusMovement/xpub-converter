@@ -24,9 +24,9 @@
   },
   "license": "MIT",
   "dependencies": {
-    "bs58check": "^2.1.2"
+    "bs58check": "^4.0.0"
   },
   "devDependencies": {
-    "jest": "^26.2.2"
+    "jest": "^29.7"
   }
 }
