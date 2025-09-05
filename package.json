@@ -1,6 +1,6 @@
 {
   "name": "xpub-converter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "xpub converter",
   "main": "src/index.js",
   "files": [
