@@ -1,6 +1,6 @@
 {
   "name": "xpub-converter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "xpub converter",
   "main": "src/index.js",
   "files": [
@@ -24,7 +24,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "bs58check": "^2.1.2"
+    "bs58check": "^3.0.0"
   },
   "devDependencies": {
     "jest": "^26.2.2"
